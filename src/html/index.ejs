@@ -1,0 +1,22 @@
+---
+layout: layouts/base.ejs
+title: ああああ
+description: ディスクリプション
+---
+<h1><%- title %></h1>
+
+
+
+<ul class="test">
+
+  <% for (let article of articles) {  %>
+    <li><%- article.title %><br><%- article.name %></li>
+  <% }  %>
+</ul>
+
+<ul class="test2">
+
+  <% for (let article of articles2) {  %>
+    <li><%- article.title %><br><%- article.name %></li>
+  <% }  %>
+</ul>

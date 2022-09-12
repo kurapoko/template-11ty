@@ -1,0 +1,49 @@
+@use "../config" as config;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: config.$base-taxt-color;
+  font-family: config.$BASE_FONT_FAMILY;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .5px;
+  line-height: 1.4t;
+  -webkit-overflow-scrolling: touch;
+  text-size-adjust: 100%;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+input[type="submit"] {
+  appearance: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+em,
+address {
+  font-style: normal;
+}
