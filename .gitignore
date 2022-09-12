@@ -109,3 +109,5 @@ src/images/**/*.gif
 src/images/**/*.webp
 src/images/**/*.jpeg
 src/images/**/*.svg
+
+*.css.map
